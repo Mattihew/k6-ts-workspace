@@ -1,7 +1,7 @@
 {
   "name": "k6-ts-workspace",
   "version": "1.0.0",
-  "description": "",
+  "description": "K6 Typescript Workspace",
   "main": "index.js",
   "scripts": {
     "start": "npm run build && npm run k6",
@@ -9,9 +9,15 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["k6", "ts", "typescript", "workspace"],
+  "homepage": "https://github.com/Mattihew/k6-ts-workspace",
+  "bugs": "https://github.com/Mattihew/k6-ts-workspace/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mattihew/k6-ts-workspace.git"
+  },
+  "author": "Matt Rayner",
+  "license": "MIT",
   "devDependencies": {
     "k6": "0.0.0",
     "@types/k6": "^0.24.2"
