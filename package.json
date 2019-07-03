@@ -1,0 +1,19 @@
+{
+  "name": "k6-ts-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run k6",
+    "k6": "docker run -v C:\\Users\\Matt\\Code\\git\\k6-ts-workspace\\dist:/k6 --name kgTest --rm loadimpact/k6 run /k6/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "k6": "0.0.0",
+    "@types/k6": "^0.24.2"
+  }
+}
