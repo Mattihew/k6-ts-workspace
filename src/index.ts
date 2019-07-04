@@ -1,6 +1,6 @@
 import {check} from "k6";
 import * as http from "k6/http";
-import {Options} from "k6/Options";
+import {Options} from "k6/options";
 
 export const options: Partial<Options> = {
     vus: 20,

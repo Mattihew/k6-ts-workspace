@@ -8,11 +8,12 @@
         "allowJs": true,
         "moduleResolution": "node",
         "rootDir": "./src",
+        "strict": true,
+        "alwaysStrict": true,
         "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "noImplicitAny": true,
-        "importHelpers": true,
-        "strictNullChecks": true
+        "noUnusedLocals": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true
     },
     "include": [
         "./src/*"
