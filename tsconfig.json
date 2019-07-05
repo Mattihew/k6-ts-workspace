@@ -6,6 +6,7 @@
         "lib": ["es6"],
         "sourceMap": false,
         "allowJs": true,
+        "checkJs": true,
         "moduleResolution": "node",
         "rootDir": "./src",
         "strict": true,

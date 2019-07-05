@@ -7,9 +7,9 @@ export const options: Partial<Options> = {
     iterations: 20
 };
 
-export default function() {
+export default function(): void {
     const res = http.get(`http://jsonplaceholder.typicode.com/users/${__VU}`);
     check(res, {
-        "is status 200": r => r.status === 200
+        "is status 200": (r): boolean => r.status === 200
     });
 }

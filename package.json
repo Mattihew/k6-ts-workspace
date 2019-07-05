@@ -25,6 +25,9 @@
   "license": "MIT",
   "devDependencies": {
     "@types/k6": "^0.24.2",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.0.1",
     "k6": "0.0.0",
     "typescript": "^3.5.2"
   }

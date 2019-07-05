@@ -2,9 +2,6 @@
 .idea
 *.iml
 
-#VSCode
-.VSCode
-
 #NodeJS
 dist
 node_modules
