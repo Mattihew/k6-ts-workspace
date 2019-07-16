@@ -7,6 +7,8 @@
     "start": "npm run build && npm run k6",
     "k6": "docker run -v C:\\Users\\Matt\\Code\\git\\k6-ts-workspace\\dist:/k6 --name k6Test --rm loadimpact/k6 run /k6/index.js",
     "build": "tsc",
+    "prebuild": "npm lint",
+    "lint": "eslint \"src/**\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
